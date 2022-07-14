@@ -17,4 +17,8 @@ Route::get('/', function () {
     return ['Laravel' => app()->version()];
 });
 
+Route::get('/docs', function () {
+    return view('swagger.index');
+});
+
 require __DIR__.'/auth.php';

@@ -1,0 +1,12 @@
+POST http://127.0.0.1:8000/api/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "kurob",
+  "email": "kurob1993@gmail.com",
+  "password": "Kurob@123",
+  "password_confirmation": "Kurob@123"
+}
+
+###
